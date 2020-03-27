@@ -1,0 +1,37 @@
+body{
+    background-color: #fcd04b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-weight: 300px;
+}
+
+.btn{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    display: block;
+    position: relative;
+    background-color: #fcad26;
+    font-size: 26px;
+    font-weight: 300px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 8px #efa424;
+}
+
+.btn:hover{
+    background-color: #fcb726;
+}
+
+.btn:active{
+    box-shadow: none;
+    top: 8px;
+}

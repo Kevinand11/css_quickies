@@ -1,0 +1,31 @@
+p{
+    background: #9b59b6;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 100px;
+}
+
+p.box:hover{
+    background-color: #e74c3c;
+    transform-origin: top left;
+    transform: scale(2);
+    opacity: 0.5;
+    border-radius: 50px;
+}
+
+/* p.animate:hover{
+    transition-property: border-radius,background-color, transform;
+    transition-duration: 2s, 3s, 3s;
+    transition-delay: 1s, 0, 0;
+} */
+
+p.animate:hover{
+    transition: transform 2s ease-out 1s;
+        /* background 2s ease-in 1s,
+        border-radius 5s linear 0; */
+        /* Multiple properties on one line not working */
+}

@@ -1,0 +1,24 @@
+p{
+    width: 60px;
+    height: 60px;
+    background-color: #1abc9c;
+    border: 2px solid #1a999c;
+}
+
+p:hover{
+    background-color: #3498db;
+}
+
+p.translate:hover{
+    transform: translate(20px,20px);
+}
+
+p.scale:hover{
+    transform: scale(5,3);
+    transform-origin: top left;
+}
+
+p.rotate:hover{
+    transform: rotate(60deg);
+    transform-origin: bottom right;
+}
